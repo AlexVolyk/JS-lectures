@@ -110,11 +110,11 @@ let arr = ['Paul', 'Jessica', "Alex", "Marshall", "Foluso", "Dakota"]
 arr.map((value, index) => console.log(value, index))
 // elegant type of code and performance
 
-function fun(color) {
-    if (color !== 'Blue' || color !== 'green') {
-        color = 'red';
-    }
-    return color;
-};
+for (let i = 5; i < 16; i--){
+    console.log(i)
+}
 
-console.log(fun())
+
+
+
+
